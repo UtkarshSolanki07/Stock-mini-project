@@ -1,0 +1,16 @@
+import React from 'react'
+import Search from './Search'
+import ThemeIcon from './ThemeIcon'
+const Header = ({name}) => {
+  return (
+    <>
+    <div className='xl:px-30'>
+        <h1 className="text-4xl">{name}</h1>
+        <Search />
+    </div>
+    <ThemeIcon />
+        </>
+  )
+}
+
+export default Header
